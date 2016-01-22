@@ -95,7 +95,7 @@ config = {
     // ### Testing MySQL
     // Used by Travis - Automated testing run through GitHub
     'testing-mysql': {
-        url: 'http://127.0.0.1:2369',
+        url: 'https://immense-ravine-78020.herokuapp.com/',
         database: {
             client: 'mysql',
             connection: {
@@ -116,7 +116,7 @@ config = {
     // ### Testing pg
     // Used by Travis - Automated testing run through GitHub
     'testing-pg': {
-        url: 'http://127.0.0.1:2369',
+        url: 'https://immense-ravine-78020.herokuapp.com/',
         database: {
             client: 'pg',
             connection: {
