@@ -31,7 +31,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blog's published URL.
-        url: 'http://localhost:2368',
+        url: 'https://immense-ravine-78020.herokuapp.com/',
 
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
@@ -61,9 +61,9 @@ config = {
         // Can be host & port (default), or socket
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '127.0.0.1',
+            host: '0.0.0.0',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '2368'
+            port: 'process.env.PORT'
         },
         // #### Paths
         // Specify where your content directory lives
@@ -78,7 +78,7 @@ config = {
     // Used when developing Ghost to run tests and check the health of Ghost
     // Uses a different port number
     testing: {
-        url: 'http://127.0.0.1:2369',
+        url: 'https://immense-ravine-78020.herokuapp.com/',
         database: {
             client: 'sqlite3',
             connection: {
